@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-color: rgb(55, 161, 41);
+  --blue-color: rgb(74, 70, 121);
+  --light-color: #fff;
+  --gray-color: rgb(94, 85, 85);
+}
+
+html {
+  background-color: var(--blue-color);
+}
+
+body {
+  margin: auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+p {
+  text-align: center;
+}
+
+/* Utility Classes */
+.btn {
+  display: inline-block;
+  text-align: center;
+  margin: 1.2rem 0rem;
+  padding: .4rem 9rem;
+  border-radius: 10px;
+  background-color: var(--green-color);
+  color: var(--light-color);
+}
+
+#form {
+  max-width: 400px;
+  margin: 2rem auto;
+  background-color: var(--light-color);
+  border-radius: 5px;
+}
+
+#form .container {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#form .container .content {
+  display: flex;
+  flex-direction: column;
+}
+
+#form .container .content .s-heading {
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+#form .container .content label {
+  color: var(--gray-color);
+  padding-bottom: .5rem;
+  text-align: left;
+}
+
+#form .container .content input {
+  padding: .3rem;
+  width: 100%;
+  border-radius: 5px;
+} 
+
+footer {
+  color: var(--light-color);
+  margin-top: -1rem;
+}
+
+footer a {
+  color: var(--green-color);
+}
